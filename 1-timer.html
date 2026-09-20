@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 2</title>
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/styles-DD3qoKza.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-BbSUbo7J.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/1-timer-Bu8xk6Qm.js"></script>
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-C1gPI-5C.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="nav-logo" href="./index.html" aria-label="Site logo">
+        <svg class="nav-logo-icon" width="100" height="30">
+          <use href="/goit-js-hw-10/assets/sprite-E8vg0sBb.svg#logo"></use>
+        </svg>
+      </a>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link active" href="../1-timer.html"
+            >Page 2</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {=$highlight-curr}" href="../2-snackbar.html"
+            >Page 3</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <main>
+      <div class="container">
+        <h1 class="main-title">
+          <span class="main-title-gradient">Welcome</span> to page 2
+        </h1>
+        <a class="back-link" href="./index.html">Go back</a>
+
+      </div>
+
+      <!doctype html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <title>Завдання 1 - Таймер зворотного відліку</title>
+          <style>
+            * {
+              box-sizing: border-box;
+            }
+
+            body {
+              margin: 0;
+              min-height: 100vh;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: 24px;
+              font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+              background-color: #f5f6fb;
+              padding: 24px;
+            }
+
+            .form-wrap {
+              display: flex;
+              align-items: center;
+              gap: 12px;
+            }
+
+            #datetime-picker {
+              padding: 10px 14px;
+              font-size: 16px;
+              border: 1px solid #c0c4d6;
+              border-radius: 8px;
+              outline: none;
+              min-width: 220px;
+            }
+
+            #datetime-picker:disabled {
+              background-color: #ececec;
+              cursor: not-allowed;
+            }
+
+            button[data-start] {
+              padding: 10px 24px;
+              font-size: 16px;
+              font-weight: 600;
+              color: #fff;
+              background-color: #4e75ff;
+              border: none;
+              border-radius: 8px;
+              cursor: pointer;
+              transition: background-color 0.2s ease;
+            }
+
+            button[data-start]:hover:not(:disabled) {
+              background-color: #3a5fe0;
+            }
+
+            button[data-start]:disabled {
+              background-color: #b7c2e6;
+              cursor: not-allowed;
+            }
+
+            .timer {
+              display: flex;
+              gap: 16px;
+            }
+
+            .field {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              background-color: #ffffff;
+              border-radius: 12px;
+              padding: 16px 20px;
+              min-width: 88px;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            }
+
+            .value {
+              font-size: 40px;
+              font-weight: 700;
+              color: #2b2d42;
+              line-height: 1;
+            }
+
+            .label {
+              margin-top: 8px;
+              font-size: 14px;
+              color: #8a8fa3;
+              text-transform: capitalize;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="form-wrap">
+            <input
+              type="text"
+              id="datetime-picker"
+              placeholder="Select a date"
+            />
+            <button type="button" data-start>Start</button>
+          </div>
+
+          <div class="timer">
+            <div class="field">
+              <span class="value" data-days>00</span>
+              <span class="label">Days</span>
+            </div>
+            <div class="field">
+              <span class="value" data-hours>00</span>
+              <span class="label">Hours</span>
+            </div>
+            <div class="field">
+              <span class="value" data-minutes>00</span>
+              <span class="label">Minutes</span>
+            </div>
+            <div class="field">
+              <span class="value" data-seconds>00</span>
+              <span class="label">Seconds</span>
+            </div>
+          </div>
+        </body>
+      </html>
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <p class="footer-desc">
+      Made with ✨ by
+      <a
+        class="footer-link"
+        href="https://goit.global/ua/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GoIT team
+      </a>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
